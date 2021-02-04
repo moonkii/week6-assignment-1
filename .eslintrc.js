@@ -15,6 +15,7 @@ module.exports = {
     Feature: 'readonly',
     Scenario: 'readonly',
     actor: 'readonly',
+    given: 'readonly',
   },
   parserOptions: {
     ecmaFeatures: {

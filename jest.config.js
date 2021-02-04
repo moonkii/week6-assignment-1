@@ -1,7 +1,10 @@
 module.exports = {
   setupFilesAfterEnv: [
-    'jest-plugin-context/setup',
     './jest.setup',
+  ],
+  setupFiles: [
+    'jest-plugin-context/setup',
+    'given2/setup',
   ],
   coverageThreshold: {
     global: {
